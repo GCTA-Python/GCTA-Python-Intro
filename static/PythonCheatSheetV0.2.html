@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+ * HTML-Sheets-of-Paper (https://github.com/delight-im/HTML-Sheets-of-Paper)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the MIT License (https://opensource.org/licenses/MIT)
+-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Emulating real sheets of paper in web documents (using HTML and CSS)">
+		<title>Sheets of Paper</title>
+		<link rel="stylesheet" type="text/css" href="css/sheets-of-paper-a4.css">
+	</head>
+	<body class="document">
+		<div class="page" contenteditable="true">
+			<h1 class="title">Cheat Sheet v0.2</h1>
+			<p style="margin-top: -2em;">press <kbd>alt+f4</kbd> (win) or <kbd>cmd+w</kbd> (mac) to anonymously support cheating</p>
+			<div class="table_info">
+				<h1 class="table">
+					Basic Data Types
+				</h1>
+				<code class="subhead"> str &ensp; int &ensp; float &ensp; bool &ensp; None </code>
+			</div>
+
+			<table class="default_table">
+				<tr class="header">
+					<th style="text-align: center;"> Type </th>
+					<th style="text-align: center;"> Examples </th>
+					<th style="text-align: center;"> Full Name </th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>str</b> </td>
+					<td style="text-align: center;"> "z", "foo", "Hello!", "3.0", "int" </td>
+					<td style="text-align: center;"> string </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>int</b> </td>
+					<td style="text-align: center;"> -11, -2, 0, 3, 101 </td>
+					<td style="text-align: center;"> integer </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>float</b> </td>
+					<td style="text-align: center;"> -96.4, -2.0, 0.0, 0.8, 3.0, 101.1  </td>
+					<td style="text-align: center;"> floating-point </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>bool</b> </td>
+					<td style="text-align: center;"> True, False </td>
+					<td style="text-align: center;"> boolean </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>NoneType</b> </td>
+					<td style="text-align: center;"> None </td>
+					<td style="text-align: center;"> none type </td>
+				</tr>
+			</table>
+
+			<div class="table_info">
+
+				<h1 class="table">
+					Comparison Operators
+				</h1>
+				<code class="subhead"> == &ensp; != &ensp; &gt &ensp; &lt &ensp; &gt= &ensp; &lt= </code>
+				
+			</div>
+
+			
+			<table class="default_table">
+				<tr class="header">
+					<th style="text-align: center;"> Operator </th>
+					<th style="text-align: center;"> Operation </th>
+					<th style="text-align: center;"> Example Usage </th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>==</b> </td>
+					<td style="text-align: center;"> is equal to<br>(value equality) </td>
+					<td style="text-align: left;">	<code>&nbsp; 1 == 1  &nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 1 == 2  &nbsp;# evaluates to False</code></td>
+
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>!=</b> </td>
+					<td style="text-align: center;"> is not equal to<br>(value inequality) </td>
+					<td style="text-align: left;">	<code>&nbsp; 1 != 2  &nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 1 != 1  &nbsp;# evaluates to False </code></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>&gt</b> </td>
+					<td style="text-align: center;"> greater than </td>
+					<td style="text-align: left;">	<code>&nbsp; 2 &gt 1  &nbsp;&nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 2 &gt 2  &nbsp;&nbsp;# evaluates to False </code><br>
+												  	<code>&nbsp; 1 &gt 2  &nbsp;&nbsp;# evaluates to False </code></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>&lt</b> </td>
+					<td style="text-align: center;"> less than </td>
+					<td style="text-align: left;">	<code>&nbsp; 1 &lt 2  &nbsp;&nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 2 &lt 2  &nbsp;&nbsp;# evaluates to False </code><br>
+												  	<code>&nbsp; 2 &lt 1  &nbsp;&nbsp;# evaluates to False </code></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>&gt=</b> </td>
+					<td style="text-align: center;"> greater than<br>or equal </td>
+					<td style="text-align: left;">	<code>&nbsp; 2 &gt= 1  &nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 1 &gt= 1  &nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 0 &gt= 1  &nbsp;# evaluates to False </code></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>&lt=</b> </td>
+					<td style="text-align: center;"> less than<br>or equal </td>
+					<td style="text-align: left;">	<code>&nbsp; 0 &lt= 1  &nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 1 &lt= 1  &nbsp;# evaluates to True </code><br>
+												  	<code>&nbsp; 2 &lt= 1  &nbsp;# evaluates to False </code></td>
+				</tr>
+			</table>
+		</div>
+		<div class="page" contenteditable="true">
+
+			<div class="table_info">
+
+				<h1 class="table">
+					Logical Operators
+				</h1>
+				<code class="subhead"> and &ensp; or &ensp; not </code>
+				
+			</div>
+				
+			<table class="default_table">
+				<tr class="header">
+					<th style="text-align: center;"> Operator </th>
+					<th style="text-align: center;"> Operation<br>Description </th>
+					<th style="text-align: center;"> Example Usage </th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>and</b> </td>
+					<td style="text-align: center;"> both are True </td>
+					<td style="text-align: left;">
+						<table class="no_space_table">
+							<tr></tr>
+							<tr>
+								<td>
+									True &nbsp;and True<br>
+									True &nbsp;and False<br>
+									False and True<br>
+									False and False<br>
+								</td>
+								<td>&nbsp;&nbsp;</td>
+								<td>
+									# evaluates to True<br>
+									# evaluates to False<br>
+									# evaluates to False<br>
+									# evaluates to False<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>or</b> </td>
+					<td style="text-align: center;"> at least one<br>is True </td>
+					<td style="text-align: left;">
+						<table class="no_space_table">
+							<tr></tr>
+							<tr>
+								<td>
+									True &nbsp;or True<br>
+									True &nbsp;or False<br>
+									False or True<br>
+									False or False<br>
+								</td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td>
+									# evaluates to True<br>
+									# evaluates to True<br>
+									# evaluates to True<br>
+									# evaluates to False<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>not</b> </td>
+					<td style="text-align: center;"> inverse<br>(opposite) </td>
+					<td style="text-align: left;">
+						<table class="no_space_table">
+							<tr></tr>
+							<tr>
+								<td>
+									not True<br>
+									not False<br>
+								</td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+								<td>
+									# evaluates to False<br>
+									# evaluates to True<br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			<table>
+
+			
+			<div class="table_info">
+
+				<h1 class="table">
+					Special Operators
+				</h1>
+				<code class="subhead"> is &ensp; in </code>
+				
+			</div>
+			
+			<table class="default_table">
+				<tr class="header">
+					<th style="text-align: center;"> Operator </th>
+					<th style="text-align: center;"> Name </th>
+					<th style="text-align: center;"> Operation<br>Description </th>
+					<th style="text-align: center;"> Example Usage </th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>is</b> </td>
+					<td style="text-align: center;"> identity <br>operator </td>
+					<td style="text-align: center;"> checks for <br><b>reference</b><br>equality <br></td>
+					<td style="	text-align: left; 
+								padding-right: 0em !important;
+								padding-left: 1em !important;">
+													<code> # evaluates to True:</code><br>
+													<code> x = None</code><br>
+													<code> x is None </code><br>
+													<br>
+													<code> <b>warning</b>: avoid numbers</code><br></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>in</b> </td>
+					<td style="text-align: center;"> membership <br>operator </td>
+					<td style="text-align: center;"> checks for <br>membership </td>
+					<td style="	text-align: left; 
+								padding-right: 0em !important;
+								padding-left: 1em !important;">
+													<code> # evaluates to True:</code><br>
+													<code> 1 in ["dog", 1, 2.3] </code><br>
+													<code> "a" in [False, "a"] </code><br>
+													<code> -1.0 in [-1, 0, 2] </code><br>
+													<code> </code><br>
+													<code> # evaluates to False:</code><br>
+													<code> 1.9 in [-1, 0, 2] </code><br></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="page" contenteditable="true">
+
+			<div class="table_info">
+
+				<h1 class="table">
+					Assignment Operators
+				</h1>
+				<code class="subhead"> = &ensp; += &ensp; -= &ensp; *= &ensp; /= &ensp; **= &ensp; %= </code>
+				
+			</div>
+
+			<h3 style="margin-bottom: .25em;">Assignment:</h3>
+
+			<table style="width: 100%; text-align: center;">
+				<tr style="background-color: white !important;">
+					<td>
+						<code> variable_name </code>
+					</td>
+					<td>
+						<code style="color: darkred">&lt;assignment operator&gt; </code>
+					</td>
+					<td>
+						<code> object_being_assigned </code>
+					</td>
+				</tr>
+			</table>
+
+			<br>
+			<b>Assignment examples:</b><br>
+			<code style="">
+				x = 3<br>
+				y = .01<br>
+				z = 'abc'<br>
+				my_variable_name = 101<br>
+				cat_lives = 9.0<br>
+				city_name = "Austin"<br>
+				chocolate = True<br>
+				abc = 123
+			</code>
+
+			<h3 style="margin-bottom: .25em;">Augmented Assignment:</h3>
+
+			<table style="width: 100%; text-align: center;">
+				<tr style="background-color: white !important;">
+					<td>
+						<code> variable_name </code>
+					</td>
+					<td>
+						<code style="color: darkred">&lt;augment>&lt;assignment operator&gt; </code>
+					</td>
+					<td>
+						<code> object_being_assigned </code>
+					</td>
+				</tr>
+			</table><br>
+			
+			<p>
+			<code> variable = variable + 1 </code><br>
+			is equivalent to<br>
+			<code> variable += 1 </code>
+			</p>
+
+
+
+			<br>
+			<table class="default_table" style="white-space: pre;">
+				<tr class="header">
+					<th style="text-align: left;"> Operator </th>
+					<th style="text-align: center;"> Example </th>
+					<th style="text-align: center;"> Explanation </th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>  =</b> </td>
+					<td style="text-align: left;"><code>   variable = object </code></td>
+					<td style="text-align: center;"> binds object to variable </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b> +=</b> </td>
+					<td style="text-align: left;"><code>  variable += &lt;number&gt; </code><br><code>  variable += "string" </code></td>
+					<td style="text-align: center;"> increases variable by &lt;number&gt; <br> concatenates "string" </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b> -=</b> </td>
+					<td style="text-align: left;"><code>  variable -= &lt;number&gt; </code></td>
+					<td style="text-align: center;"> decreases variable by &lt;number&gt; </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b> *=</b> </td>
+					<td style="text-align: left;"><code>  variable *= &lt;number&gt; </code><br><code>    string *= &lt;number&gt; </code></td>
+					<td style="text-align: center;"> multiplies variable by &lt;number&gt; <br> replicates string &lt;number&gt; times </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b> /=</b> </td>
+					<td style="text-align: left;"><code>  variable /= &lt;number&gt; </code></td>
+					<td style="text-align: center;"> divides variable by &lt;number&gt;</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>**=</b> </td>
+					<td style="text-align: left;"><code> variable **= &lt;number&gt; </code></td>
+					<td style="text-align: center;"> raises variable to the &lt;number&gt;th power </td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b> %=</b> </td>
+					<td style="text-align: left;"><code>  variable %= &lt;number&gt; </code></td>
+					<td style="text-align: center;"> evaluates to variable modulo &lt;number&gt; </td>
+				</tr>
+				
+			</table>
+
+
+		
+
+		</div>
+
+
+
+		<script type="text/javascript">
+		// window.print();
+
+		var Config = {};
+		Config.pixelsPerInch = 96;
+		Config.pageHeightInCentimeter = 29.7; // must match 'min-height' from 'css/sheets-of-paper-*.css' being used
+		Config.pageMarginBottomInCentimeter = 2; // must match 'padding-bottom' and 'margin-bottom' from 'css/sheets-of-paper-*.css' being used
+
+		window.addEventListener("DOMContentLoaded", function () {
+			applyPageBreaks();
+		});
+
+		function applyPageBreaks() {
+			applyManualPageBreaks();
+			applyAutomaticPageBreaks(Config.pixelsPerInch, Config.pageHeightInCentimeter, Config.pageMarginBottomInCentimeter);
+
+			document.querySelectorAll(".document .page").forEach(function (element) {
+				if (!element.classList.contains("has-events")) {
+					element.addEventListener("blur", function () {
+						applyPageBreaks();
+					});
+
+					element.classList.add("has-events");
+				}
+			});
+		}
+
+		/* Applies any manual page breaks in preview mode (screen, non-print) where CSS Paged Media is not fully supported */
+		function applyManualPageBreaks() {
+			var docs, pages, snippets;
+			docs = document.querySelectorAll(".document");
+
+			for (var d = docs.length - 1; d >= 0; d--) {
+				pages = docs[d].querySelectorAll(".page");
+
+				for (var p = pages.length - 1; p >= 0; p--) {
+					snippets = pages[p].children;
+
+					for (var s = snippets.length - 1; s >= 0; s--) {
+						if (snippets[s].classList.contains("page-break")) {
+							pages[p].insertAdjacentHTML("afterend", "<div class=\"page\" contenteditable=\"true\"></div>");
+
+							for (var n = snippets.length - 1; n > s; n--) {
+								pages[p].nextElementSibling.insertBefore(snippets[n], pages[p].nextElementSibling.firstChild);
+							}
+
+							snippets[s].remove();
+						}
+					}
+				}
+			}
+		}
+
+		/* Applies (where necessary) automatic page breaks in preview mode (screen, non-print) where CSS Paged Media is not fully supported */
+		function applyAutomaticPageBreaks(pixelsPerInch, pageHeightInCentimeter, pageMarginBottomInCentimeter) {
+			var inchPerCentimeter = 0.393701;
+			var pageHeightInInch = pageHeightInCentimeter * inchPerCentimeter;
+			var pageHeightInPixels = Math.ceil(pageHeightInInch * pixelsPerInch);
+			var pageMarginBottomInInch = pageMarginBottomInCentimeter * inchPerCentimeter;
+			var pageMarginBottomInPixels = Math.ceil(pageMarginBottomInInch * pixelsPerInch);
+			var docs, pages, snippets, pageCoords, snippetCoords;
+			docs = document.querySelectorAll(".document");
+
+			for (var d = docs.length - 1; d >= 0; d--) {
+				pages = docs[d].querySelectorAll(".page");
+
+				for (var p = 0; p < pages.length; p++) {
+					if (pages[p].clientHeight > pageHeightInPixels) {
+						pages[p].insertAdjacentHTML("afterend", "<div class=\"page\" contenteditable=\"true\"></div>");
+						pageCoords = pages[p].getBoundingClientRect();
+						snippets = pages[p].querySelectorAll("h1, h2, h3, h4, h5, h6, p, ul, ol");
+
+						for (var s = snippets.length - 1; s >= 0; s--) {
+							snippetCoords = snippets[s].getBoundingClientRect();
+
+							if ((snippetCoords.bottom - pageCoords.top + pageMarginBottomInPixels) > pageHeightInPixels) {
+								pages[p].nextElementSibling.insertBefore(snippets[s], pages[p].nextElementSibling.firstChild);
+							}
+						}
+
+						pages = docs[d].querySelectorAll(".page");
+					}
+				}
+			}
+		}
+		</script>
+	</body>
+</html>
