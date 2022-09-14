@@ -58,7 +58,7 @@ function applyManualPageBreaks() {
 
             for (var s = snippets.length - 1; s >= 0; s--) {
                 if (snippets[s].classList.contains("page-break")) {
-                    pages[p].insertAdjacentHTML("afterend", "<div class=\"page\" contenteditable=\"true\"></div>");
+                    pages[p].insertAdjacentHTML("afterend", "<div class=\"page\" contenteditable=\"false\"></div>");
 
                     for (var n = snippets.length - 1; n > s; n--) {
                         pages[p].nextElementSibling.insertBefore(snippets[n], pages[p].nextElementSibling.firstChild);
@@ -86,7 +86,7 @@ function applyAutomaticPageBreaks(pixelsPerInch, pageHeightInCentimeter, pageMar
 
         for (var p = 0; p < pages.length; p++) {
             if (pages[p].clientHeight > pageHeightInPixels) {
-                pages[p].insertAdjacentHTML("afterend", "<div class=\"page\" contenteditable=\"true\"></div>");
+                pages[p].insertAdjacentHTML("afterend", "<div class=\"page\" contenteditable=\"false\"></div>");
                 pageCoords = pages[p].getBoundingClientRect();
                 snippets = pages[p].querySelectorAll("h1, h2, h3, h4, h5, h6, p, ul, ol");
 
