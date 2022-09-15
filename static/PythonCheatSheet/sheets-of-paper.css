@@ -216,17 +216,17 @@ tr.header {
 
 
 /* striped table */
-tr:nth-child(odd):not(:nth-child(0)) {
+table.default_table > tbody > tr:nth-child(odd):not(:nth-child(0)) {
     background-color: #f2f2f2;
 }
 
 /* match code blocks */
-tr:nth-child(even):not(:nth-child(0)) code {
+table.default_table > tbody > tr:nth-child(even):not(:nth-child(0)) code {
     background-color: inherit;
 }
 
 /* match code blocks */
-tr:nth-child(odd) code {
+table.default_table > tbody > tr:nth-child(odd) code {
     background-color: inherit;
 }
 
@@ -254,6 +254,15 @@ table tr:hover code {
 	display: flexbox;
 	justify-content: space-around;
 
+}
+
+.no_border {
+	border-spacing: 0px;
+}
+
+.sub_table1 {
+	margin-left: 1em;
+	margin-right: -1em;
 }
 
 

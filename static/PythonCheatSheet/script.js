@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
   
     toggle.addEventListener('change', function () {
       if (toggle.checked) {
-        // console.log('Checked');
+        console.log('Checked');
         document.querySelector('html').style.filter = 'invert(95%)'
       } else {
-        // console.log('Not checked');
+        console.log('Not checked');
         document.querySelector('html').style.filter = 'invert(0%)'
       }
     });
