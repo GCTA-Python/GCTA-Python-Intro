@@ -1,0 +1,135 @@
+
+topics:
+    blockchain
+    food
+    construction
+    
+    constructing food
+    feeding the blockchain
+    blocking construction
+    
+
+pseudo code and problem solving practice
+
+
+write a variable that represents a real world boolean status
+i.e. whether something is true or false
+for example: whether I have an object, or not.
+             whether an object has a property, or not.
+             whether I have items in a container, or not.
+             are you in class today, or not?
+ 
+# problem 0.1
+write a script that requests user input and assigns it to a variable
+
+# problem 0.2
+write real world examples of user input for bool, float, int, and str
+
+
+# problem 1.1
+I have four burgers. (or user input)
+But I have zero milkshakes.
+If I have more than 2 burgers, Ron will give me a milkshake.
+keep track of the total number of items I have...
+and then send to std out (print) that total.
+
+# pseudocode
+# record burgers
+# record milkshakes
+# if more than 2 burgers, +1 milkshake
+# sum burgers and milkshakes
+# print sum
+
+# code
+burgers = 4
+milkshakes = 0
+
+if burgers > 2:
+    milkshakes = milkshakes + 1
+    
+burger_shakes = burgers + milkshakes
+
+print(burger_shakes)
+
+
+
+# problem 1.2
+I have four burgers. (or user input)
+But I have zero milkshakes.
+If I have more than 2 burgers, Ron will give me a milkshake.
+And if I have more than 3 items, I will have to put all of the items into a bag.
+keep track of the total number of items I have...
+and whether or not the items are bagged.
+and then send to std out (print) that total and bagged status.
+
+# record burgers
+# record milkshakes
+# initalize bagged status
+# if more than 2 burgers, +1 milkshake
+# sum burgers and milkshakes
+# if sum > 3, bagged status is true
+# print sum and bagged status
+
+
+# code
+burgers = 4
+milkshakes = 0
+bagged = False
+
+if burgers > 2:
+    milkshakes = milkshakes + 1
+    
+burger_shakes = burgers + milkshakes
+
+if burger_shakes > 4:
+    bagged = True
+
+print(burger_shakes, bagged)
+
+
+
+# problem 2.1
+I have a user defined number of burgers.
+I have 1 milkshakes.
+
+If I have 1 burger, Ron will give me 1 milkshake.
+If I have more than 1 burger, but less than three burgers, Ron will give me 1 toy.
+If I have 3 or more burgers, Ron gives me 1 toy and 2 milkshakes
+
+keep track of items I have
+and then send to std out (print) the items and how many I have
+
+# request user-burger input
+# record milkshakes
+# record toys
+# if 1 burger, +1 milkshake
+# if 2 burgers, +1 toy
+# if 3 burgers, -1 burger
+# print items
+
+
+# code
+burgers = int(input('burger number'))
+milkshakes = 1
+toys = 0
+
+if burgers == 1:
+    milkshakes = milkshakes + 1
+elif burgers >= 1 and burgers < 3:
+    toys = toys + 1
+else:  # burgers > 3
+    toys = toys + 1
+    milkshakes = milkshakes + 2
+
+print(burgers, milkshakes, toys)
+
+
+
+
+
+
+
+
+
+
+
