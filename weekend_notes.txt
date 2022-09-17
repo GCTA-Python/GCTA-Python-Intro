@@ -104,7 +104,7 @@ and then send to std out (print) the items and how many I have
 # record toys
 # if 1 burger, +1 milkshake
 # if 2 burgers, +1 toy
-# if 3 burgers, -1 burger
+# if 3 burgers, +1 toy +2 milkshakes
 # print items
 
 
@@ -122,7 +122,13 @@ else:  # burgers > 3
     milkshakes = milkshakes + 2
 
 print(burgers, milkshakes, toys)
+print('burgers:', burgers, 'milkshakes:', milkshakes, 'toys', toys)
 
+
+# user input check
+burgers = 0
+while burgers < 0:
+    burgers = int(input('burger number')
 
 
 
