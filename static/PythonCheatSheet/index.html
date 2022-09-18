@@ -2,13 +2,14 @@
 
 <!-- todo: refactor using flex -->
 <!-- todo: fix Comparison Operators usage examples formatting -->
+<!-- todo: bitwise formatting and examples -->
 
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-		<meta name="description" content="Student Review Supplement (WIP - v0.3)">
+		<meta name="description" content="Student Review Supplement (WIP - v0.4)">
 		<title>Python Cheat Sheet</title>
 		<link rel="stylesheet" type="text/css" href="sheets-of-paper-a4.css">
 		<!-- <script async type="application/javascript" src="script.js"></script>   -->
@@ -103,7 +104,7 @@
 							<tr>
 								<td style="text-align: right;"><code> &ensp;1 + 2 </code></td>
 								<td> &ensp; </td>
-								<td> # evaluates to 3 </td>
+								<td><code> # evaluates to 3 </code></td>
 							</tr>
 						</table>
 					</td>
@@ -118,7 +119,7 @@
 							<tr>
 								<td style="text-align: right;"><code> &ensp;2 - 1 </code></td>
 								<td> &ensp; </td>
-								<td> # evaluates to 1 </td>
+								<td><code> # evaluates to 1 </code></td>
 							</tr>
 						</table>
 					</td>
@@ -133,7 +134,7 @@
 							<tr>
 								<td style="text-align: right;"><code> &ensp;2 * 3 </code></td>
 								<td> &ensp; </td>
-								<td> # evaluates to 6 </td>
+								<td><code> # evaluates to 6 </code></td>
 							</tr>
 						</table>
 					</td>
@@ -148,7 +149,7 @@
 							<tr>
 								<td style="text-align: right;"><code> &ensp;4 / 2 </code></td>
 								<td> &ensp; </td>
-								<td> # evaluates to 2 </td>
+								<td><code> # evaluates to 2 </code></td>
 							</tr>
 						</table>
 					</td>
@@ -163,7 +164,7 @@
 							<tr>
 								<td style="text-align: right;"><code> 3 ** 2 </code></td>
 								<td> &ensp; </td>
-								<td> # evaluates to 9 </td>
+								<td><code> # evaluates to 9 </code></td>
 							</tr>
 						</table>
 					</td>
@@ -179,7 +180,7 @@
 							<tr>
 								<td style="text-align: right;"><code> 5 // 2 </code></td>
 								<td> &ensp; </td>
-								<td> # evaluates to 2 </td>
+								<td><code> # evaluates to 2 </code></td>
 							</tr>
 						</table>
 					</td>
@@ -195,7 +196,7 @@
 							<tr>
 								<td style="text-align: right;"><code> &ensp;4 % 2 </code></td>
 								<td> &ensp; </td>
-								<td> # evaluates to 0 </td>
+								<td><code> # evaluates to 0 </code></td>
 							</tr>
 						</table>
 					</td>
@@ -261,138 +262,88 @@
 			</table>
 
 
-
-						<!-- Logical Operators -->
-						<div class="table_info">
-							<h1 class="table"> Logical Operators </h1>
-							<code class="subhead"> and &ensp; or &ensp; not </code>
-						</div>
-			
-						<table class="default_table">
-							<tr class="header">
-								<th style="text-align: center;"> Operator </th>
-								<th style="text-align: center;"> Operation<br>Description </th>
-								<th style="text-align: center;"> Example Usage </th>
-							</tr>
-							<tr>
-								<td style="text-align: center;"> <b>and</b> </td>
-								<td style="text-align: center;"> both are True </td>
-								<td style="text-align: left;">
-									<table class="no_space_table">
-										<tr></tr>
-										<tr>
-											<td>
-												True &nbsp;and True<br>
-												True &nbsp;and False<br>
-												False and True<br>
-												False and False<br>
-											</td>
-											<td>&nbsp;&nbsp;</td>
-											<td>
-												# evaluates to True<br>
-												# evaluates to False<br>
-												# evaluates to False<br>
-												# evaluates to False<br>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-							<tr>
-								<td style="text-align: center;"> <b>or</b> </td>
-								<td style="text-align: center;"> at least one<br>is True </td>
-								<td style="text-align: left;">
-									<table class="no_space_table">
-										<tr></tr>
-										<tr>
-											<td>
-												True &nbsp;or True<br>
-												True &nbsp;or False<br>
-												False or True<br>
-												False or False<br>
-											</td>
-											<td>&nbsp;&nbsp;&nbsp;</td>
-											<td>
-												# evaluates to True<br>
-												# evaluates to True<br>
-												# evaluates to True<br>
-												# evaluates to False<br>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-							<tr>
-								<td style="text-align: center;"> <b>not</b> </td>
-								<td style="text-align: center;"> inverse<br>(opposite) </td>
-								<td style="text-align: left;">
-									<table class="no_space_table">
-										<tr></tr>
-										<tr>
-											<td>
-												not True<br>
-												not False<br>
-											</td>
-											<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-											<td>
-												# evaluates to False<br>
-												# evaluates to True<br>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-
-			
-		</div>
-
-		<div class="page" contenteditable="false">
-
-
-
-			<!-- Special Operators -->
+			<!-- Logical Operators -->
 			<div class="table_info">
-				<h1 class="table"> Special Operators </h1>
-				<code class="subhead"> is &ensp; in </code>
+				<h1 class="table"> Logical Operators </h1>
+				<code class="subhead"> and &ensp; or &ensp; not </code>
 			</div>
 
 			<table class="default_table">
 				<tr class="header">
 					<th style="text-align: center;"> Operator </th>
-					<th style="text-align: center;"> Name </th>
 					<th style="text-align: center;"> Operation<br>Description </th>
 					<th style="text-align: center;"> Example Usage </th>
 				</tr>
 				<tr>
-					<td style="text-align: center;"> <b>is</b> </td>
-					<td style="text-align: center;"> identity <br>operator </td>
-					<td style="text-align: center;"> checks for <br><b>reference</b><br>equality <br></td>
-					<td style="	text-align: left;
-								padding-right: 0em !important;
-								padding-left: 1em !important;">
-													<code> # evaluates to True:</code><br>
-													<code> x = None</code><br>
-													<code> x is None </code><br>
-													<br>
-													<code> <b>warning</b>: avoid numbers</code><br></td>
+					<td style="text-align: center;"> <b>and</b> </td>
+					<td style="text-align: center;"> both are True </td>
+					<td style="text-align: left;">
+						<table class="no_space_table">
+							<tr></tr>
+							<tr>
+								<td>
+									True &nbsp;and True<br>
+									True &nbsp;and False<br>
+									False and True<br>
+									False and False<br>
+								</td>
+								<td>&nbsp;&nbsp;</td>
+								<td>
+									<code># evaluates to True</code><br>
+									<code># evaluates to False</code><br>
+									<code># evaluates to False</code><br>
+									<code># evaluates to False</code><br>
+								</td>
+							</tr>
+						</table>
+					</td>
 				</tr>
 				<tr>
-					<td style="text-align: center;"> <b>in</b> </td>
-					<td style="text-align: center;"> membership <br>operator </td>
-					<td style="text-align: center;"> checks for <br>membership </td>
-					<td style="	text-align: left;
-								padding-right: 0em !important;
-								padding-left: 1em !important;">
-													<code> # evaluates to True:</code><br>
-													<code> 1 in ["dog", 1, 2.3] </code><br>
-													<code> "a" in [False, "a"] </code><br>
-													<code> -1.0 in [-1, 0, 2] </code><br>
-													<code> </code><br>
-													<code> # evaluates to False:</code><br>
-													<code> 1.9 in [-1, 0, 2] </code><br></td>
+					<td style="text-align: center;"> <b>or</b> </td>
+					<td style="text-align: center;"> at least one<br>is True </td>
+					<td style="text-align: left;">
+						<table class="no_space_table">
+							<tr></tr>
+							<tr>
+								<td>
+									True &nbsp;or True<br>
+									True &nbsp;or False<br>
+									False or True<br>
+									False or False<br>
+								</td>
+								<td>&nbsp;&nbsp;&nbsp;</td>
+								<td>
+									<code># evaluates to True</code><br>
+									<code># evaluates to True</code><br>
+									<code># evaluates to True</code><br>
+									<code># evaluates to False</code><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>not</b> </td>
+					<td style="text-align: center;"> inverse<br>(opposite) </td>
+					<td style="text-align: left;">
+						<table class="no_space_table">
+							<tr></tr>
+							<tr>
+								<td>
+									not True<br>
+									not False<br>
+								</td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+								<td>
+									<code># evaluates to False</code><br>
+									<code># evaluates to True</code><br>
+								</td>
+							</tr>
+						</table>
+					</td>
 				</tr>
 			</table>
+
 		</div>
 
 
@@ -501,15 +452,157 @@
 			
 		</div>
 
+
+
+		<div class="page" contenteditable="false">
+
+			<!-- Special Operators -->
+			<div class="table_info">
+				<h1 class="table"> Special Operators </h1>
+				<code class="subhead"> is &ensp; in </code>
+			</div>
+
+			<table class="default_table">
+				<tr class="header">
+					<th style="text-align: center;"> Operator </th>
+					<th style="text-align: center;"> Name </th>
+					<th style="text-align: center;"> Operation<br>Description </th>
+					<th style="text-align: center;"> Example Usage </th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>is</b> </td>
+					<td style="text-align: center;"> identity <br>operator </td>
+					<td style="text-align: center;"> checks for <br><b>reference</b><br>equality <br></td>
+					<td style="	text-align: left;
+								padding-right: 0em !important;
+								padding-left: 1em !important;">
+													<code> # evaluates to True:</code><br>
+													<code> x = None</code><br>
+													<code> x is None </code><br>
+													<br>
+													<code> <b>warning</b>: avoid numbers</code><br></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>in</b> </td>
+					<td style="text-align: center;"> membership <br>operator </td>
+					<td style="text-align: center;"> checks for <br>membership </td>
+					<td style="	text-align: left;
+								padding-right: 0em !important;
+								padding-left: 1em !important;">
+													<code> # evaluates to True:</code><br>
+													<code> 1 in ["dog", 1, 2.3] </code><br>
+													<code> "a" in [False, "a"] </code><br>
+													<code> -1.0 in [-1, 0, 2] </code><br>
+													<code> </code><br>
+													<code> # evaluates to False:</code><br>
+													<code> 1.9 in [-1, 0, 2] </code><br></td>
+				</tr>
+			</table>
+
+
+			<!-- Bitwise Operators -->
+			<div class="table_info">
+				<h1 class="table"> Bitwise Operators </h1>
+				<code class="subhead"> & &ensp; | &ensp; ^ &ensp; ~ &ensp; </code>
+			</div>
+
+			<table class="default_table">
+				<tr class="header">
+					<th style="text-align: center;"> Operator </th>
+					<th style="text-align: center;"> Name </th>
+					<th style="text-align: center;"> Operation<br>Description </th>
+					<th style="text-align: center;"> Example Usage </th>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>&</b> </td>
+					<td style="text-align: center;"> bitwise and </td>
+					<td style="text-align: center;"> both are True <br> (logical and) </td>
+					<td style="text-align: center;"> 
+						<table class="no_border sub_table1"> 
+							<tr>
+								<td style="text-align: right;"><code> 1 & 1 </code></td>
+								<td> &ensp; </td>
+								<td><code> # eval. to 1 </code></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>|</b> </td>
+					<td style="text-align: center;"> bitwise <br> (inclusive) or </td>
+					<td style="text-align: center;"> at least one <br> is True <br> (logical or) </td>
+					<td style="text-align: center;"> 
+						<table class="no_border sub_table1"> 
+							<tr>
+								<td style="text-align: right;"><code> 1 | 0 </code></td>
+								<td> &ensp; </td>
+								<td> # eavl. to 1 </td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>^</b> </td>
+					<td style="text-align: center;"> bitwise xor <br> (exclusive or) </td>
+					<td style="text-align: center;"> one is True <br> but not both</td>
+					<td style="text-align: center;"> 
+						<table class="no_border sub_table1"> 
+							<tr>
+								<td style="text-align: right;"><code> 1 ^ 1 </code></td>
+								<td> &ensp; </td>
+								<td> # eval. to 0 </td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>~</b> </td>
+					<td style="text-align: center;"> bitwise inversion <br> (bitwise NOT) </td>
+					<td style="text-align: center;"> inverts value <br> (logical negation) </td>
+					<td style="text-align: center;"> 
+						<table class="no_border sub_table1"> 
+							<tr>
+								<td style="text-align: right;"><code> ~0 </code></td>
+								<td> &ensp; </td>
+								<td> # eval. to 1 </td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>&lt;&lt;</b> </td>
+					<td style="text-align: center;"> bitwise shift <br> left </td>
+					<td style="text-align: center;"> bitshift first <br> argument left by <br> second argument </td>
+					<td style="text-align: center;"> 
+						<table class="no_border sub_table1"> 
+							<tr>
+								<td style="text-align: right;"><code> 1 &lt;&lt; 2 </code></td>
+								<td> &ensp; </td>
+								<td> # eval. to 100 </td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center;"> <b>>></b> </td>
+					<td style="text-align: center;"> bitwise shift <br> right </td>
+					<td style="text-align: center;"> bitshift first <br> argument right by <br> second argument </td>
+					<td style="text-align: center;"> 
+						<table class="no_border sub_table1"> 
+							<tr>
+								<td style="text-align: right;"><code> 10 >> 1 </code></td>
+								<td> &ensp; </td>
+								<td> # eval. to 1 </td>
+							</tr>
+						</table>
+					</td>
+
+				</tr>
+			</table>
+		</div>
+
 	</body>
 
-
-	
-
-<!--
-* HTML-Sheets-of-Paper (https://github.com/delight-im/HTML-Sheets-of-Paper)
-* Copyright (c) delight.im (https://www.delight.im/)
-* Licensed under the MIT License (https://opensource.org/licenses/MIT)
--->
+<!-- USING: HTML-Sheets-of-Paper (https://github.com/delight-im/HTML-Sheets-of-Paper) -->
 
 </html>
