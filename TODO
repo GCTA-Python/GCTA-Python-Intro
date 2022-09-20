@@ -1,3 +1,45 @@
+Sept 19 2022
+
+practice notebooks:
+
+    control flow:
+        conditionals:
+            if
+            elif
+            else
+
+        loops:
+            while
+            for in
+        
+        continue
+        break
+
+    functions:
+        'calling', 'invoking' a function
+        def
+        parentheses
+        colon
+        paramaters
+        default arguments
+        arguments
+        argument types: positional, keyword...
+        argument order
+        return
+        appending return
+        default return
+        
+    bitwise:
+        
+        
+
+!move
+ideas:
+    grades (if elif...)
+    
+
+-------------------------------------------------------------------------------------
+
 * sort folder
 
 * review for deletion folder
