@@ -1,3 +1,33 @@
+TypeCastingPractice - good; augment
+
+reorder notebooks - group loops etc
+string methods maybe - StringPracticeAnswered...
+
+usable (likely require refactor):
+        gcta-python / notebooks / practice / PreFunctionReview.ipynb
+        gcta-python / notebooks / practice / FunctionPractice.ipynb
+        gcta-python / notebooks / practice / FunctionPractice2.ipynb
+        gcta-python / notebooks / practice / FunctionWritingPractice.ipynb
+        gcta-python / notebooks / practice / LoopPractice.ipynb
+        gcta-python / notebooks / practice / NestedDataPractice.ipynb
+        gcta-python / notebooks / practice / Module4Practice.ipynb
+        gcta-python / notebooks / practice / PCEPPractice.ipynb
+FIXED   gcta-python / notebooks / practice / TryExceptPractice.ipynb 
+
+
+Sept 22 2022
+
+notebook refactors
+
+Recursion:
+    provide justification
+    provide simple examples of justification
+    
+    create practice notebook
+    
+
+    
+
 Sept 19 2022
 
 practice notebooks:
