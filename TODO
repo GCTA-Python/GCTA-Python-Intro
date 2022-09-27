@@ -1,18 +1,21 @@
+Sept 26 2022
+example of try except: debugging? give more information than (some) IDE's will provide...
+
 TypeCastingPractice - good; augment
 
 reorder notebooks - group loops etc
 string methods maybe - StringPracticeAnswered...
 
 usable (likely require refactor):
-        gcta-python / notebooks / practice / PreFunctionReview.ipynb
-        gcta-python / notebooks / practice / FunctionPractice.ipynb
-        gcta-python / notebooks / practice / FunctionPractice2.ipynb
-        gcta-python / notebooks / practice / FunctionWritingPractice.ipynb
-        gcta-python / notebooks / practice / LoopPractice.ipynb
-        gcta-python / notebooks / practice / NestedDataPractice.ipynb
-        gcta-python / notebooks / practice / Module4Practice.ipynb
-        gcta-python / notebooks / practice / PCEPPractice.ipynb
-FIXED   gcta-python / notebooks / practice / TryExceptPractice.ipynb 
+FIXED    needs refactor                     gcta-python / notebooks / practice / PreFunctionReview.ipynb
+                            reading         gcta-python / notebooks / practice / FunctionPractice.ipynb
+                            reading         gcta-python / notebooks / practice / FunctionPractice2.ipynb
+                            writing         gcta-python / notebooks / practice / FunctionWritingPractice.ipynb
+                            r/w; mostly r   gcta-python / notebooks / practice / LoopPractice.ipynb
+tests ability to access nested dict/lists   gcta-python / notebooks / practice / NestedDataPractice.ipynb
+                                            gcta-python / notebooks / practice / Module4Practice.ipynb
+                                            gcta-python / notebooks / practice / PCEPPractice.ipynb
+FIXED                                       gcta-python / notebooks / practice / TryExceptPractice.ipynb 
 
 
 Sept 22 2022
