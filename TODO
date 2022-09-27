@@ -1,3 +1,11 @@
+Cheat Sheet:
+    is now works with numbers > 257...
+    escape characters? \n \t \s at least... \\ \' \"
+    naming ?
+
+Sept 27 2022
+assignment creation: data type association w real world phenomena
+
 Sept 26 2022
 example of try except: debugging? give more information than (some) IDE's will provide...
 
