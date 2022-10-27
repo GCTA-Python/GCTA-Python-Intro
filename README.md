@@ -6,7 +6,7 @@ After the first week of class (installation/setup/intro), please come to class w
 ### Windows instructions:
 1. Open a command prompt ([Windows Key+R; type: cmd; press Enter](https://www.groovypost.com/howto/howto/use-windows-key-r-run-as-administrator/))
 2. Navigate to the correct installation location
-    - ```cd .\GCTA-Python-Intro```
+    - ```cd .\github\GCTA-Python-Intro```
 4. Make sure you have the latest changes
     - ```git stash```
     - ```git pull origin master```
@@ -19,7 +19,7 @@ After the first week of class (installation/setup/intro), please come to class w
 ### Mac Instructions
 1. Open a terminal ([Mac instructions](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac))
 2. Navigate to the correct installation location
-    - ```cd ./GCTA-Python-Intro```
+    - ```cd ./github/GCTA-Python-Intro```
 3. Make sure you have the latest changes
     - ```git stash```
     - ```git pull origin master```
