@@ -10,8 +10,6 @@ After the first week of class (installation/setup/intro), please come to class w
 4. Make sure you have the latest changes
     - ```git stash```
     - ```git pull origin master```
-5. Navigate to the jupyter-notebooks directory
-    - ```cd .\gcta-python```
 6. Activate your virtual environment
     - ```.\venv\Scripts\activate```
 7. Start jupyter notebook
@@ -23,8 +21,6 @@ After the first week of class (installation/setup/intro), please come to class w
 3. Make sure you have the latest changes
     - ```git stash```
     - ```git pull origin master```
-4. Navigate to the jupyter-notebooks directory
-    - ```cd ./gcta-python```
 5. Activate your virtual environment
     - ```source ./venv/bin/activate```
 6. Start jupyter notebook
