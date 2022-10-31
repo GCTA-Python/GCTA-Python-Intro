@@ -1,3 +1,11 @@
+delete review - moeved from elsewhere
+todo cheatsheet:
+    inclusive exclusive
+    parapmter argument
+    default arguments params etc
+
+reorg: 01 folder remove/move type casting
+
 Cheat Sheet:
     is now works with numbers > 257...
     escape characters? \n \t \s at least... \\ \' \"
