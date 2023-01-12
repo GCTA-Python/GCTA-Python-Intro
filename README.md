@@ -1,8 +1,8 @@
 # GCTA-Python-Intro
 You can find a curriculum outline here: [curriculum outline](https://github.com/GCTA-Python/GCTA-Python-Intro/blob/master/cirriculum.txt).
-<br>
+<br><br>
 The curriculum itself can be found under the ````gcta-python```` directory.
-<br>
+<br><br>
 After the first week of class (installation/setup/intro), please come to class with Jupyter Notebook running from within the ````gcta-python```` directory.
 
 ### Windows instructions:
