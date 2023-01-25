@@ -39,6 +39,9 @@ operators
         binary
     augmented assignment operators
         +=  -=  *=  /=  **=  //=  %=
+    strings
+        concatenation
+        replication
 
 operators
     boolean/logical
