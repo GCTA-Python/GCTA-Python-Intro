@@ -48,6 +48,13 @@ operators
         and or not
     comparison
         == != > < >= <=
+    special [MOVE?]
+        is in
+
+# ---------------------------------- #
+
+basic data structure:
+    basic lists
 
 # ---------- control flow ---------- #
 
@@ -77,7 +84,7 @@ matrices
 # ---------- data structures ---------- #
 
 basic data structures:
-    lists
+    advanced lists (nested)
     dictionaries
     tuples
 
