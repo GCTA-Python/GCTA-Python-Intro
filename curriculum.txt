@@ -1,0 +1,142 @@
+curriculum 1.2
+
+computational thinking
+
+problem solving
+    pseudocode
+    complexity reduction
+
+comments
+
+escape char \
+
+first solve for correctness
+
+IDEs:
+    PyCharm
+    Visual Studio Code
+
+
+# ---------- data types ---------- #
+
+data types
+    int
+    string
+    float
+    bool
+    None
+
+# ---------- intro fns & io ---------- #
+
+intro functions (print focus; reading)
+    parenthesis
+    colon
+    indentation
+    parameters
+    default parameters
+    arguments
+
+built-in functions
+    help
+    type
+    isinstance
+
+io
+    print
+    input
+
+# ---------- operators ---------- #
+
+operators
+    assignment operators
+        =
+    arithmetic operators
+        + - * / ** // %
+        unary
+        binary
+    augmented assignment operators
+        +=  -=  *=  /=  **=  //=  %=
+
+strings
+    concatenation
+    replication
+
+operators
+    boolean/logical
+        and or not
+    comparison
+        == != > < >= <=
+    special [MOVE?]
+        is in
+
+# ---------------------------------- #
+
+basic data structure:
+    basic lists
+
+# ---------- control flow ---------- #
+
+conditionals
+    if elif else
+
+loops
+    while
+    for
+    
+    break
+    continue
+    
+    dangling else
+    
+
+# ---------- PCEP imposed ---------- #
+
+data types
+    binary
+    octal
+    hexadecimal
+
+operators
+    bitwise
+        & | ^ ~ << >>
+
+matrices
+    up to r3
+
+# ---------- data structures ---------- #
+
+basic data structures:
+    advanced lists (nested)
+    dictionaries
+    tuples
+
+# ---------- advanced topics ---------- #
+
+advanced lists:
+    list comprehension (Module 3)
+        basic
+        single if statement
+        else if statements
+        show possible nesting?
+    mention dictionary comprehension?
+
+advanced functions
+    review syntax
+    positional arguments
+    keyword arguments
+    default arguments
+    adv arguments (optional)
+        pos, / , pos or kw, * , kw
+        arbitrary positional * arg
+        arbitrary keyword * arg
+    return
+    default return
+    scope
+
+# ---------- misc ---------- #
+
+exceptions
+    try
+    except
+    error type
+    error tuples
