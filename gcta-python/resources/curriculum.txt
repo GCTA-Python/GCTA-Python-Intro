@@ -16,6 +16,8 @@ IDEs:
     PyCharm
     Visual Studio Code
 
+naming conventions
+
 
 # ---------- data types ---------- #
 
