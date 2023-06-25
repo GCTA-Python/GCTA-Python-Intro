@@ -1,0 +1,5 @@
+
+# Using ONLY the knowledge that you have been taught
+# thus far, what changes could be made to this code?
+
+# How could we seperate the numbers of a date using sep= or end=?
