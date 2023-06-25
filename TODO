@@ -1,3 +1,18 @@
+pass
+
+move this somewhere; deleted from type casting
+# remember the input() function always returns a string
+# fix the code below such that this code cell does not result in an error
+
+x = input('enter a number: ')
+
+print(x+2)
+
+
+
+
+
+
 delete review - moeved from elsewhere
 todo cheatsheet:
     inclusive exclusive

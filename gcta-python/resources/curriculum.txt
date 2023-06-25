@@ -1,29 +1,35 @@
 curriculum 1.3
 
-# ---------- intro  ---------- #
+TODO:
 
-TODO: refactor
-
-computational thinking
-
-problem solving
-    pseudocode
-    complexity reduction
-
-first solve for correctness
-
-comments
-
-naming conventions
-
+pass keyword
 
 IDEs:
     PyCharm
     Visual Studio Code
 
-escape char \  # todo: move
+escape char \
 
-indentation  # todo: move
+indentation
+
+# ---------- intro  ---------- #
+
+
+computational thinking
+
+problem solving
+    pseudocode
+    managing complexity
+
+first solve for correctness
+
+comments
+
+intro to functions
+
+intro to variables
+
+naming conventions
 
 
 # ---------- data types ---------- #
