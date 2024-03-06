@@ -19,6 +19,8 @@ import random
 
 
 class TTTGame:
+    valid_input = [str(i) for i in range(1, 10)]
+
     def __init__(self):
         self.board = [[j+(3*i) for j in range(1,4)] for i in range(3)]
 
@@ -51,8 +53,8 @@ class TTTGame:
     # todo force valid input
     # todo force valid move (no overwrite)
     def enter_move(self) -> None:
-        usr_inp = None
-        while not usr_inp.isdigit():
+        usr_inp = ''
+        while usr_inp not in self.valid_input:
             usr_inp = input('Enter Move: ')
         usr_inp = int(usr_inp)
 
@@ -99,7 +101,7 @@ class TTTGame:
 
     def run(self):
         self.display_board()
-        while True:
+        while self.make_list_of_free_fields():
             self.enter_move()
             if self.victory_for('x'):
                 print('Player wins!')
@@ -117,6 +119,8 @@ class TTTGame:
             else:
                 print('Board Updated!')
                 self.display_board()
+        else:
+            print('Tie!')
 
 
 # allows importing this file
